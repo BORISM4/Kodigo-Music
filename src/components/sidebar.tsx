@@ -17,6 +17,7 @@ import {
 import { Button } from "../components/ui/button";
 import { useAuth } from "../contexts/AuthContext";
 import { cn } from "../lib/utils";
+import { LoginModal } from "../components/LoginModal";
 
 const navigation = [
   { name: "Inicio", href: "/", icon: Home },
@@ -29,6 +30,7 @@ export function Sidebar() {
   const pathname = location.pathname;
   const { user, logout } = useAuth();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [showLogin, setShowLogin] = useState(false);
 
   useEffect(() => {
     setIsMobileMenuOpen(false);
@@ -134,15 +136,13 @@ export function Sidebar() {
           </div>
         ) : (
           <Button
-            onClick={() => {
-              window.dispatchEvent(new CustomEvent("openLogin"));
-              setIsMobileMenuOpen(false);
-            }}
+            onClick={() => setShowLogin(true)}
             className="w-full bg-green-500 hover:bg-green-600 text-black font-semibold text-sm lg:text-base"
           >
             Iniciar Sesión
           </Button>
         )}
+        <LoginModal open={showLogin} onOpenChange={setShowLogin} />
       </div>
     </>
   );
