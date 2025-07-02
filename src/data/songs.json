@@ -1,0 +1,144 @@
+{
+  "songs": [
+    {
+      "id": 1,
+      "title": "Blinding Lights",
+      "artist": "The Weeknd",
+      "album": "After Hours",
+      "duration": "3:20",
+      "cover": "/placeholder.svg?height=300&width=300",
+      "audioUrl": "https://www.soundjay.com/misc/sounds/bell-ringing-05.wav",
+      "genre": "Pop",
+      "year": 2020
+    },
+    {
+      "id": 2,
+      "title": "Watermelon Sugar",
+      "artist": "Harry Styles",
+      "album": "Fine Line",
+      "duration": "2:54",
+      "cover": "/placeholder.svg?height=300&width=300",
+      "audioUrl": "https://www.soundjay.com/misc/sounds/bell-ringing-05.wav",
+      "genre": "Pop",
+      "year": 2020
+    },
+    {
+      "id": 3,
+      "title": "Levitating",
+      "artist": "Dua Lipa",
+      "album": "Future Nostalgia",
+      "duration": "3:23",
+      "cover": "/placeholder.svg?height=300&width=300",
+      "audioUrl": "https://www.soundjay.com/misc/sounds/bell-ringing-05.wav",
+      "genre": "Pop",
+      "year": 2020
+    },
+    {
+      "id": 4,
+      "title": "Good 4 U",
+      "artist": "Olivia Rodrigo",
+      "album": "SOUR",
+      "duration": "2:58",
+      "cover": "/placeholder.svg?height=300&width=300",
+      "audioUrl": "https://www.soundjay.com/misc/sounds/bell-ringing-05.wav",
+      "genre": "Pop Rock",
+      "year": 2021
+    },
+    {
+      "id": 5,
+      "title": "Stay",
+      "artist": "The Kid LAROI, Justin Bieber",
+      "album": "F*CK LOVE 3",
+      "duration": "2:21",
+      "cover": "/placeholder.svg?height=300&width=300",
+      "audioUrl": "https://www.soundjay.com/misc/sounds/bell-ringing-05.wav",
+      "genre": "Pop",
+      "year": 2021
+    },
+    {
+      "id": 6,
+      "title": "As It Was",
+      "artist": "Harry Styles",
+      "album": "Harry's House",
+      "duration": "2:47",
+      "cover": "/placeholder.svg?height=300&width=300",
+      "audioUrl": "https://www.soundjay.com/misc/sounds/bell-ringing-05.wav",
+      "genre": "Pop",
+      "year": 2022
+    },
+    {
+      "id": 7,
+      "title": "Heat Waves",
+      "artist": "Glass Animals",
+      "album": "Dreamland",
+      "duration": "3:58",
+      "cover": "/placeholder.svg?height=300&width=300",
+      "audioUrl": "https://www.soundjay.com/misc/sounds/bell-ringing-05.wav",
+      "genre": "Indie Pop",
+      "year": 2020
+    },
+    {
+      "id": 8,
+      "title": "Industry Baby",
+      "artist": "Lil Nas X, Jack Harlow",
+      "album": "MONTERO",
+      "duration": "3:32",
+      "cover": "/placeholder.svg?height=300&width=300",
+      "audioUrl": "https://www.soundjay.com/misc/sounds/bell-ringing-05.wav",
+      "genre": "Hip Hop",
+      "year": 2021
+    }
+  ],
+  "albums": [
+    {
+      "id": 1,
+      "title": "After Hours",
+      "artist": "The Weeknd",
+      "cover": "/placeholder.svg?height=300&width=300",
+      "year": 2020,
+      "songs": [1]
+    },
+    {
+      "id": 2,
+      "title": "Future Nostalgia",
+      "artist": "Dua Lipa",
+      "cover": "/placeholder.svg?height=300&width=300",
+      "year": 2020,
+      "songs": [3]
+    },
+    {
+      "id": 3,
+      "title": "Fine Line",
+      "artist": "Harry Styles",
+      "cover": "/placeholder.svg?height=300&width=300",
+      "year": 2019,
+      "songs": [2]
+    },
+    {
+      "id": 4,
+      "title": "SOUR",
+      "artist": "Olivia Rodrigo",
+      "cover": "/placeholder.svg?height=300&width=300",
+      "year": 2021,
+      "songs": [4]
+    }
+  ],
+  "playlists": [
+    {
+      "id": "1",
+      "name": "Mis Favoritas",
+      "description": "Las canciones que más me gustan",
+      "cover": "/placeholder.svg?height=300&width=300",
+      "songs": [1, 3, 5],
+      "created_at": "2024-01-01T00:00:00Z"
+    },
+    {
+      "id": "2",
+      "name": "Pop Hits 2024",
+      "description": "Los mejores hits de pop",
+      "cover": "/placeholder.svg?height=300&width=300",
+      "songs": [1, 2, 3, 4, 5],
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  ]
+}
